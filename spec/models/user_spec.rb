@@ -8,7 +8,7 @@ RSpec.describe User, type: :model do
     it { should validate_uniqueness_of(:email) }
   end
 
-  describe 'relationships' do
-    it { should have_many(:flies) }
-  end
+  # describe 'relationships' do
+  #   it { should have_many(:flies) }
+  # end
 end

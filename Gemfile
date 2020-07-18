@@ -8,10 +8,12 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'factory_bot'
+gem 'factory_bot_rails'
 gem 'faker'
 gem 'coffee-rails', '~> 4.2'
 gem 'rubocop', require: false
+gem 'fast_jsonapi'
+gem 'webmock'
 
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
@@ -24,6 +26,7 @@ group :development, :test do
   gem 'simplecov', require: false
   gem 'shoulda-matchers'
   gem 'capybara'
+  gem 'pry'
 end
 
 group :development do
@@ -31,6 +34,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'pry'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

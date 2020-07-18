@@ -5,10 +5,9 @@ class CreateFishes < ActiveRecord::Migration[5.2]
       t.text :image
       t.integer :length
       t.integer :weight
-      t.integer :amound
+      t.integer :amount
       t.text :location
-      t.references :fly, foreign_key: true
-
+      
       t.timestamps
     end
   end

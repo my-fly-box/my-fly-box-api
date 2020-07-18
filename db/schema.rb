@@ -20,25 +20,21 @@ ActiveRecord::Schema.define(version: 2020_07_16_014252) do
     t.text "image"
     t.integer "length"
     t.integer "weight"
-    t.integer "amound"
+    t.integer "amount"
     t.text "location"
-    t.bigint "fly_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["fly_id"], name: "index_fishes_on_fly_id"
   end
 
   create_table "flies", force: :cascade do |t|
     t.text "name"
     t.integer "size"
     t.text "color"
-    t.text "type"
+    t.text "category"
     t.integer "amount"
     t.boolean "favorited?", default: false
-    t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_flies_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -49,6 +45,4 @@ ActiveRecord::Schema.define(version: 2020_07_16_014252) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "fishes", "flies"
-  add_foreign_key "flies", "users"
 end

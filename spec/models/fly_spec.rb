@@ -5,10 +5,10 @@ RSpec.describe Fly, type: :model do
     it { should validate_presence_of(:name) }
     it { should validate_presence_of(:size) }
     it { should validate_presence_of(:color) }
-    it { should validate_presence_of(:type) }
+    it { should validate_presence_of(:category) }
   end
 
-  describe 'relationships' do
-    it { should belong_to(:user) }
-  end
+  # describe 'relationships' do
+  #   it { should belong_to(:user) }
+  # end
 end
