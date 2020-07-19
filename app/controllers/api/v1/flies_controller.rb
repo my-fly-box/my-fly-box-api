@@ -27,7 +27,7 @@ class Api::V1::FliesController < ApplicationController
   private
 
   def fly_params
-    params.(:name, :size, :color, :category, :amount, :favorited?)
+    params.permit(:name, :size, :color, :category, :amount, :favorited?)
   end
 
   def options
