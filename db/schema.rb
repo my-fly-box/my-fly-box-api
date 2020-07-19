@@ -10,20 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_16_014252) do
+ActiveRecord::Schema.define(version: 2020_07_18_211819) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "fishes", force: :cascade do |t|
-    t.text "species"
-    t.text "image"
+  create_table "catches", force: :cascade do |t|
+    t.string "species"
+    t.string "image", default: "N/A"
     t.integer "length"
     t.integer "weight"
-    t.integer "amount"
-    t.text "location"
+    t.string "location"
+    t.bigint "fly_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["fly_id"], name: "index_catches_on_fly_id"
   end
 
   create_table "flies", force: :cascade do |t|
@@ -45,4 +46,5 @@ ActiveRecord::Schema.define(version: 2020_07_16_014252) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "catches", "flies"
 end

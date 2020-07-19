@@ -1,5 +1,5 @@
 class Fly < ApplicationRecord
-  # belongs_to :user
+  has_many :catches
 
   validates :name, presence: true
   validates :size, presence: true
