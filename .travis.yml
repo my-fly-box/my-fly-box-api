@@ -1,0 +1,21 @@
+langauge: ruby
+sudo: false
+cache:
+  bundler: true
+rbenv:
+- 2.5.3
+addons:
+  postgresql: 9.6
+  chrome: stable
+dist: xenial
+before_install:
+- yes | gem update --system --force
+- gem install bundler
+script:
+- yarn
+deploy:
+  provider: heroku
+  app: my-fly-box-api
+  run: rails db:migrate
+  api_key:
+    secure: VK9YbvDxila55Met3gqvLsSV4FbvP2YmoKF+K4h1hRilnmYxlnSGrEKL0jD6Br0EfRsgsWFlQ3YY8AeQlO9pyDWZa5ohVDHN2rKsGPGvLb61iE2knqr8NXg7ayuyrNe5nH4Lg7HSK+H4NwcaCNuRMYX8/WPyQofLZd4ab8nzUVbSziMYrTsz+ypkaPLYzs5St1YOkuXjG2w3WUOYsnuN+BKkbnqhKzESF4H7UDpA725dIABXQPKDm3jkQeSpdgWXYZl0XnUwvFCN6VUes628jvrd72xA60zM/ipvzwPorsZKrHTAD7NfWlNvy4ALnKfyFfJdo1dOL/ry3PomIqs8b96q0OiRfa9rW86Oj6U/0eZkbjk1QMuaLz8JfzNA7lIE/IFF/KxFZvWQ3s1mu/njCNfHwt4/X+1rzT5zSM6HtRb+IZdARxcu26738pZrmnMMi9xlbWYkFViugCgLZs1NSE/Pgmdc3zVCKcFSp/R4SaVnvLDrpKuQOZxo8BP038f6+RRj5tEC7ZyzgUfX439btN2rNmPyNmOCeweq0QPAl/Fa9MoV3naHasXjFaRXEUm3XPJ5Jc0+WC6o2LsMLtPi22gu2kb6ARm/7uSXYKdciSERK9dK+nnMedVCcNL6Kc9Rqh/aaDHayAn24BFVEQG6FTqx3PYPfpPGTFdDRXAGHUA=
