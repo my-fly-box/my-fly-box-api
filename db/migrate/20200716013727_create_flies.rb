@@ -4,10 +4,9 @@ class CreateFlies < ActiveRecord::Migration[5.2]
       t.text :name
       t.integer :size
       t.text :color
-      t.text :type
+      t.text :category
       t.integer :amount
       t.boolean :favorited?, default: false
-      t.references :user, foreign_key: true
 
       t.timestamps
     end

@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many :flies
+  # has_many :flies
 
   validates :first_name, presence: true
   validates :last_name, presence: true
