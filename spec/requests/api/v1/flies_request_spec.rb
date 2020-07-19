@@ -19,7 +19,7 @@ RSpec.describe 'Flies request API' do
   it 'can create a fly' do
     fly_params = { name: 'test name', size: '45', color: 'red', category: 'test category', amount: '5'}
 
-    post '/api/v1/flies', params: { fly: fly_params }
+    post '/api/v1/flies', params: (fly_params)
     expect(response).to be_successful
 
     new_fly= Fly.last
@@ -46,7 +46,7 @@ RSpec.describe 'Flies request API' do
     original_name = @fly1.name
     updated_fly_params = {name: "The Updated One", favorited?: true}
 
-    patch "/api/v1/flies/#{@fly1.id}", params: {fly: updated_fly_params}
+    patch "/api/v1/flies/#{@fly1.id}", params: (updated_fly_params)
 
     expect(response).to be_successful
     updated_fly = Fly.find(@fly1.id)

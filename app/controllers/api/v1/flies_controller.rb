@@ -1,4 +1,6 @@
 class Api::V1::FliesController < ApplicationController
+  protect_from_forgery with: :null_session
+
   def index
     render json: FlySerializer.new(Fly.all)
   end
@@ -25,7 +27,7 @@ class Api::V1::FliesController < ApplicationController
   private
 
   def fly_params
-    params.require(:fly).permit(:name, :size, :color, :category, :amount, :favorited?)
+    params.(:name, :size, :color, :category, :amount, :favorited?)
   end
 
   def options
