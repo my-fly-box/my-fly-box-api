@@ -24,4 +24,10 @@ Style/SymbolArray:
   Enabled: false
 
 Metrics/BlockLength:
-  Max: 42
+  Max: 100
+
+Layout/HashAlignment:
+  Enabled: false
+
+Rails/FilePath:
+  Enabled: false
