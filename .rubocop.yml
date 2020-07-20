@@ -1,3 +1,27 @@
 inherit_from: .rubocop_todo.yml
 
 require: rubocop-rails
+AllCops:
+  NewCops: enable
+
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 42

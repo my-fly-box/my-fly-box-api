@@ -33,6 +33,6 @@ class Api::V1::FliesController < ApplicationController
   def options
     options = {}
     options[:is_collection] = false
-    return options
+    options
   end
 end

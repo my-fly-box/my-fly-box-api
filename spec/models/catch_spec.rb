@@ -10,6 +10,6 @@ RSpec.describe Catch, type: :model do
   end
 
   describe 'relationships' do
-    it { should belong_to :fly}
+    it { should belong_to :fly }
   end
 end
