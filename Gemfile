@@ -14,7 +14,7 @@ gem 'rubocop', require: false
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'webmock'
-
+gem 'rack-cors', :require => 'rack/cors'
 gem 'jbuilder', '~> 2.5'
 gem 'turbolinks', '~> 5'
 
