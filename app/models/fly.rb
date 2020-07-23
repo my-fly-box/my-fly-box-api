@@ -1,5 +1,5 @@
 class Fly < ApplicationRecord
-  has_many :catches, dependent: :destroy
+  has_many :catches, dependent: :nullify
 
   validates :name, presence: true
   validates :size, presence: true
