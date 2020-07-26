@@ -1,0 +1,78 @@
+\{
+   "records":[
+      {
+         "_url":"https://i.imgur.com/rEZZt28.jpg",
+         "_status":{
+            "code":200,
+            "text":"OK",
+            "request_id":"5717a595-1b15-4aba-b32c-1617db4e717d"
+         },
+         "_id":"9af5b956-90b8-48bc-81c9-886deebebff0",
+         "_width":1024,
+         "_height":369,
+         "labels":[
+            {
+               "prob":0.48593,
+               "name":"Rainbow Trout",
+               "id":"c4f58670-ed1f-42b5-82b0-a1cc86aca994"
+            },
+            {
+               "prob":0.16167,
+               "name":"Lake Trout",
+               "id":"4f905072-8b23-4628-a75d-ba2135c647fd"
+            },
+            {
+               "prob":0.1418,
+               "name":"Brown Trout",
+               "id":"ce62dcce-0733-4f86-8a63-a7ad19be6e35"
+            },
+            {
+               "prob":0.09148,
+               "name":"Colorado Pikeminnow",
+               "id":"52546c49-63bd-4e0c-b124-25436f1bdc58"
+            },
+            {
+               "prob":0.04858,
+               "name":"Mountain Whitefish",
+               "id":"9060f685-4fda-4490-8da7-42e19a6f9de6"
+            },
+            {
+               "prob":0.02604,
+               "name":"Kokanee Salmon",
+               "id":"a1ca5ac3-40ce-4197-a429-c7bec321a2b7"
+            },
+            {
+               "prob":0.01687,
+               "name":"Humpback Chub",
+               "id":"27c41317-ca16-41b9-9d90-6ac18187df41"
+            },
+            {
+               "prob":0.01387,
+               "name":"Brook Trout",
+               "id":"36b90047-b1ae-46d6-8c91-6b3dd685e169"
+            },
+            {
+               "prob":0.01378,
+               "name":"Razorback Sucker",
+               "id":"bfa274c8-179f-47b3-ac5d-ea528a116e95"
+            }
+         ],
+         "best_label":{
+            "prob":0.48593,
+            "name":"Rainbow Trout",
+            "id":"c4f58670-ed1f-42b5-82b0-a1cc86aca994"
+         }
+      }
+   ],
+   "task_id":"b411ffe2-bcc3-468e-bf20-63a030bbc683",
+   "version":1,
+   "status":{
+      "code":200,
+      "text":"OK",
+      "request_id":"5717a595-1b15-4aba-b32c-1617db4e717d",
+      "proc_id":"3a80e7a0-9a3b-4dcf-a569-f268a0d9883f"
+   },
+   "statistics":{
+      "processing time":0.20662331581115723
+   }
+}"%"
