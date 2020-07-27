@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe Image do
   before(:each) do
-    @location = File.read('spec/fixtures/base64_image.txt')
+    @location = File.read('spec/fixtures/rainbow_trout.txt')
     @image = Image.new(@location)
   end
 

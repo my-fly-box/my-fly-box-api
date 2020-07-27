@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'XimilarService' do
   before :each do
     @service = XimilarService.new
-    @image = File.read('spec/fixtures/base64_image.txt')
+    @image = File.read('spec/fixtures/rainbow_trout.txt')
   end
 
   it 'exists' do
