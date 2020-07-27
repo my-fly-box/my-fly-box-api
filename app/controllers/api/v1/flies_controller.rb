@@ -31,10 +31,4 @@ class Api::V1::FliesController < ApplicationController
   def serializer(object)
     FlySerializer.new(object)
   end
-
-  def options
-    options = {}
-    options[:is_collection] = false
-    options
-  end
 end
