@@ -8,10 +8,7 @@ class Api::V1::CatchesController < ApplicationController
   end
 
   def create
-    x = Catch.create(catch_params)
-    y = (XimilarService.new.get_species(x.image))
-    x.species = y[:records].first[:best_label][:name]
-    json_response(serializer(x))
+    json_response(serializer(Catch.create!(catch_params)))
   end
 
   def update
