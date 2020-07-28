@@ -1,5 +1,6 @@
 class Api::V1::ImagesController < ApplicationController
   def create
-    json_response(ImageSerializer.new(Image.new(params[:base_64]), options))
+    i = Image.new(params[:base_64])
+    json_response(ImageSerializer.new(i, options))
   end
 end

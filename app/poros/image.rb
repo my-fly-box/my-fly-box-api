@@ -1,9 +1,11 @@
 class Image
   include ActionView::Helpers::NumberHelper
-  attr_reader :id, :image
+  attr_reader :id, :image, :species, :prob
 
   def initialize(image)
     @image = image
+    @species = species
+    @prob = prob
   end
 
   def service
