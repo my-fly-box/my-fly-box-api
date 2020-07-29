@@ -14,7 +14,6 @@
 </details>
 
 
-
 # About
 
 
@@ -56,6 +55,13 @@ rails s
 ```shell
 rspec
 ```
+
+# How it works
+### Schema
+ <p align="center">
+ <img src="https://i.imgur.com/thiK9ZE.jpg">
+</p>
+
 
 * Ruby version
 
