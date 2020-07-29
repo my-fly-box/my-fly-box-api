@@ -10,13 +10,7 @@
 - [Getting Started](#getting-started)
 - [How it works](#how-it-works)
 	* [Schema](#schema)
-  * [Default Users](#default-users)
-  * [Creating Account](#creating-account)
-  * [Items](#items)
-  * [Checkout](#checkout)
-  * [Orders](#orders)
 - [Authors](#authors)
-- [Contributing](#contributing)
 </details>
 
 
