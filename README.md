@@ -26,8 +26,8 @@ MyFlyBox started as an idea that was quickly and efficiently brought to life dur
 MyFlyBox is modern way for Colorado fly fishers to organize and keep track of their flies in addition to storing fish that were caught.
 
 Main Features: 
-	- Implemented a machine learning API with the capability to identify 12 species supported by an accuracty of 84.78% or higher.
-	- CRUD functionality on both flies and fish caught.
+* Implemented a machine learning API with the capability to identify 12 species supported by an accuracty of 84.78% or higher.
+* CRUD functionality on both flies and fish caught.
 
 # Getting Started
 ## Prerequisites
