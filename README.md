@@ -68,7 +68,7 @@ rails s
 rspec
 ```
 
-## How it works
+# How it works
 ### Schema
  <p align="center">
  <img src="https://i.imgur.com/thiK9ZE.jpg">
@@ -80,11 +80,11 @@ rspec
 </p>
 
 
-## Roadmap
+# Roadmap
 See the open issues for a list of proposed features (and known issues)
 
 
-## Development Team
+# Development Team
 
 #### Front-End:
 * [Rachael Thomas](https://github.com/rachael-t)
