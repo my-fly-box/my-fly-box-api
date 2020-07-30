@@ -8,12 +8,12 @@
   
 - [About](#about)
 - [Getting Started](#getting-started)
-	*[Prerequisites](#prerequisites)
-	*[Installation](#installation)
+	* [Prerequisites](#prerequisites)
+	* [Installation](#installation)
 - [How it works](#how-it-works)
 	* [Schema](#schema)
 	* [Species Identifier](#species-identifier)
-- [Roadmap](#road-map)
+- [Roadmap](#roadmap)
 - [Development Team](#development-team)
 
 </details>
