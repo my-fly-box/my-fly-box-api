@@ -10,6 +10,7 @@
 - [Getting Started](#getting-started)
 - [How it works](#how-it-works)
 	* [Schema](#schema)
+	* [Species Identifier](#species-identifier)
 - [Development Team](#development-team)
 
 </details>
@@ -65,6 +66,14 @@ rspec
  <p align="center">
  <img src="https://i.imgur.com/thiK9ZE.jpg">
 </p>
+
+### Species Identifier
+Implemented a machine learning API with the ability to identify 12 species with a 84.78% or higher accuracy
+
+<p align="center">
+  <img src="https://media.giphy.com/media/RhZUDpUJucjGA9RIB7/giphy.gif">
+</p>
+
 
 
 ## Development Team
