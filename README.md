@@ -81,7 +81,7 @@ rspec
 
 
 # Roadmap
-See the open issues for a list of proposed features (and known issues)
+See the open [issues](https://github.com/my-fly-box/my-fly-box-api/issues) for a list of proposed features (and known issues)
 
 
 # Development Team
