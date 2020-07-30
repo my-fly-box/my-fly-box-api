@@ -44,11 +44,11 @@ gem install rails -5.1.7
 ## Installation
 #### Clone repository:
 ```shell
-git clone git@github.com:tylertomlinson/monster_shop_2001.git
+git clone git@github.com:my-fly-box/my-fly-box-api.git
 ```
 #### Navigate into directory:
 ```shell
-cd monster_shop_2001
+cd my-fly-box-api
 ```
 #### Install gems:
 - [Gemfile](https://github.com/my-fly-box/my-fly-box-api/blob/master/Gemfile)
